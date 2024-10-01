@@ -47,7 +47,7 @@
                       /></span>
                     </div>
                     <div class="d-block d-md-none mx-auto  pb-1" style="width: 225px">
-                      <AudioReactiveBar />
+                 
                     </div>
                   </div>
                   <BootomBar />
@@ -77,7 +77,7 @@ import RNBODevice from '../components/experiments/homepages/RNBODevice'
 import { useAudioStore } from '@/stores/audio'
 import { useMicStore } from '@/stores/microphone'
 import { useUserStore } from '~/stores/user'
-import AudioReactiveBar from '~/components/audioreactivebar'
+// import AudioReactiveBar from '~/components/audioreactivebar'
 
 export default {
   components: { HomeBar, MusicGainLagoon, AudioReactiveBar, MusicGainTropic, MusicGainMeadow, MusicGainForest, RNBODevice },
