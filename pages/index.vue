@@ -75,7 +75,6 @@ import RNBODevice from '../components/experiments/homepages/RNBODevice'
 import { useAudioStore } from '@/stores/audio'
 import { useMicStore } from '@/stores/microphone'
 import { useUserStore } from '~/stores/user'
-// import AudioReactiveBar from '~/components/audioreactivebar'
 
 export default {
   components: { HomeBar, MusicGainLagoon, MusicGainTropic, MusicGainMeadow, MusicGainForest, RNBODevice },
