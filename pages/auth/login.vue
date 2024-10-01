@@ -138,7 +138,7 @@ export default {
       this.auth_error = false
       this.loading = true
 
-      this.$axios.post('/api/login', this.form).then(({ data }) => {
+      this.$axios.post('https://test-hairdressers.dowhf.com/api/login', this.form).then(({ data }) => {
         this.loading = false
 
         if (data.status === 'success') {

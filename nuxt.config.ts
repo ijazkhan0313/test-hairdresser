@@ -32,11 +32,11 @@ export default defineNuxtConfig({
       lagoon_48_flac_src: '/sounds/48kHz_15min/MindMusik_15min_48KHz_Lagoon.flac',
       tropics_48_flac_src: '/sounds/48kHz_15min/MindMusik_15min_48KHz_Tropics.flac',
 
-      apiUrl: process.env.VUE_APP_BACKEND_HOST_ADDRES || 'http://localhost:8000/api'
+      apiUrl: process.env.VUE_APP_BACKEND_HOST_ADDRES || 'https://test-hairdressers.dowhf.com/api'
 
     },
     private: {
-      apiUrl: process.env.VUE_APP_BACKEND_HOST_ADDRES || 'http://localhost:8000/api' // Only available on the server side
+      apiUrl: process.env.VUE_APP_BACKEND_HOST_ADDRES || 'https://test-hairdressers.dowhf.com/api' // Only available on the server side
     }
 
   },
