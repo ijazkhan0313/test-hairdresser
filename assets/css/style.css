@@ -1,0 +1,188 @@
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import "font-awesome/css/font-awesome.min.css";
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('/public/fonts/Montserrat_700_normal.woff') format('woff');
+  }
+
+ 
+.bg-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-image: url("../image/loginimg.png");*/
+}
+body{
+    overflow-x: hidden;
+}
+.form-control{
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: orange;
+}
+.forgot-link{
+    /*text-decoration: none;*/
+    color: grey;
+    text-decoration: underline;
+}
+
+.login-btn{
+    background-color: #e9c046;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    transition: .1s ease-in-out;
+}
+.login-ins-btn{
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid black;
+    transition: .1s ease-in-out;
+}
+.login-btn:hover{
+    background-color: #e9c059;
+}
+.signup-link{
+    color: #e9c046;
+    text-decoration: underline;
+    transition: .2s ease-in-out;
+}
+
+.accordion-button-homebar:not(.collapsed)::after {
+    background-position-y:1px ;
+
+}
+.accordion-button-homebar:not(.collapsed) {
+    color: black;
+    background-color: white;
+}
+
+.accordion-button-homebar:focus {
+    z-index: 3;
+    border-color: white;
+    outline: 0;
+    box-shadow: none;
+}
+.dropdown-menu {
+    min-width: 250px !important;
+    border: none;
+    box-shadow: 1px 0px 4px 0px rgba(0,0,0,0.10);
+}
+@media only screen and (max-width: 575px) {
+    p,h1,h2,h3,h4,h5,h6,span{
+        font-size: 15px;
+    }
+    .dropdown-menu {
+        min-width: 205px !important;
+    }
+}
+
+.doted-nav{
+    position: fixed;
+    bottom: 0;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: white !important;
+    background-color: #e9c046;
+    border-radius: 10px;
+    /*margin-top: 2px;*/
+}
+.dropdown-item.router-link-exact-active{
+    color: white !important;
+    background-color: #e9c046;
+    border-radius: 10px;
+    /*margin-top: 2px;*/
+}
+.dropdown-item.router-link-exact-active, .dropdown-item.router-link-exact-active svg path{
+    fill: white;
+}
+.dropdown-item:focus, .dropdown-item:hover svg path{
+    fill: white;
+}
+.nav-link{
+    color: black;
+    border-radius: 10px;
+
+}
+.nav-link:hover{
+    background-color: #e9c046;
+    color: white !important;
+    border-radius: 10px;
+}
+.nav-link:hover svg path {
+   fill: white;
+}
+.nav-link:hover svg rect {
+    fill: white;
+}
+
+
+.nav-icons.router-link-exact-active{
+    fill: white;
+    background-color: #e9c046;
+}
+.nav-icons.router-link-active{
+    fill: white;
+    background-color: #e9c046;
+}
+.nav-icons.router-link-exact-active svg path{
+    fill: white;
+}
+.nav-icons.router-link-active svg path{
+    fill: white;
+    
+}
+.checklabel123{
+    padding-top: 25px !important;
+}
+
+@media only screen and (max-width: 575px){
+    .checklabel{
+        height: 123px;
+        width: 134px !important;
+        padding-top: 14px !important;
+    }
+    .checklabel123{
+        padding-top: 16px !important;
+    }
+}
+
+.form-switch .form-check-input {
+    padding: 10px 16px;
+    background-color: black;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: var(--bs-accordion-btn-icon);
+    fill: red;
+
+}
+.bar{
+    background-color: #e9c046 !important;
+}
+.progress-bar {
+    background-color: #e9c046 !important;
+}
+.checklabel{
+    background: white !important;
+}
+.checklabel:hover{
+    background: #e9c046 !important;;
+}

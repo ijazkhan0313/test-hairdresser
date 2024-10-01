@@ -1,0 +1,32 @@
+# Dependency directories
+node_modules/
+yarn.lock
+
+# Nuxt build output
+.nuxt/
+dist/
+.nuxt-build/
+.output/
+
+# Production build files
+build/
+*.tar
+*.tar.gz
+
+# Dotfiles and directories
+.env.*
+!.env.example
+.DS_Store
+.gitattributes
+**/.DS_Store
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local development
+local/
+yarn.lock
+
+* text=auto

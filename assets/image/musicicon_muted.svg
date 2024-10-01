@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 24 24"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="musicicon.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="11.949153"
+     inkscape:cy="12"
+     inkscape:window-width="1200"
+     inkscape:window-height="853"
+     inkscape:window-x="3447"
+     inkscape:window-y="152"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="SVGRepo_iconCarrier" />
+  <g
+     id="SVGRepo_bgCarrier"
+     stroke-width="0" />
+  <g
+     id="SVGRepo_tracerCarrier"
+     stroke-linecap="round"
+     stroke-linejoin="round" />
+  <g
+     id="SVGRepo_iconCarrier">
+    <path
+       d="m 9,19 c 0,1.1046 -1.34315,2 -3,2 -1.65685,0 -3,-0.8954 -3,-2 0,-1.1046 1.34315,-2 3,-2 1.65685,0 3,0.8954 3,2 z m 0,0 V 5 L 21,3 v 14 m 0,0 c 0,1.1046 -1.3431,2 -3,2 -1.6569,0 -3,-0.8954 -3,-2 0,-1.1046 1.3431,-2 3,-2 1.6569,0 3,0.8954 3,2 z M 9,9 21,7"
+       stroke="#000000"
+       stroke-width="0.744"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path1"
+       sodipodi:nodetypes="sssssccccssssscc" />
+    <path
+       d="m 9,19 c 0,1.1046 -1.34315,2 -3,2 -1.65685,0 -3,-0.8954 -3,-2 0,-1.1046 1.34315,-2 3,-2 1.65685,0 3,0.8954 3,2 z m 0,0 V 5 L 21,3 v 14 m 0,0 c 0,1.1046 -1.3431,2 -3,2 -1.6569,0 -3,-0.8954 -3,-2 0,-1.1046 1.3431,-2 3,-2 1.6569,0 3,0.8954 3,2 z M 1.5762712,21.610169 C 8.752223,15.835661 7.66429,15.289776 23.440678,2.6271186"
+       stroke="#000000"
+       stroke-width="0.744"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path2"
+       sodipodi:nodetypes="sssssccccssssscc"
+       style="stroke-width:1.044;stroke-dasharray:none" />
+  </g>
+</svg>
