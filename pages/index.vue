@@ -46,9 +46,7 @@
                         class="fa-solid text-muted d-flex  fa-chevron-right"
                       /></span>
                     </div>
-                    <div class="d-block d-md-none mx-auto  pb-1" style="width: 225px">
-                 
-                    </div>
+                    <div class="d-block d-md-none mx-auto  pb-1" style="width: 225px" />
                   </div>
                   <BootomBar />
                 </div>
@@ -80,7 +78,7 @@ import { useUserStore } from '~/stores/user'
 // import AudioReactiveBar from '~/components/audioreactivebar'
 
 export default {
-  components: { HomeBar, MusicGainLagoon, AudioReactiveBar, MusicGainTropic, MusicGainMeadow, MusicGainForest, RNBODevice },
+  components: { HomeBar, MusicGainLagoon, MusicGainTropic, MusicGainMeadow, MusicGainForest, RNBODevice },
   setup () {
     definePageMeta({
       middleware: 'auth'
