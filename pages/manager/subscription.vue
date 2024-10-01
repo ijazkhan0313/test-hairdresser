@@ -177,8 +177,8 @@ async function fetchSubscriptions() {
     subscriptions.value = response.data.data
     console.log('Fetched subscriptions:', response)
   } catch (error) {
-    // console.error('Error fetching subscriptions:', error)
-    this.$toast.error('Oops, something went wrong!')
+    console.error('Error fetching subscriptions:', error)
+    // this.$toast.error('Oops, something went wrong!')
   }
 }
 
@@ -195,7 +195,8 @@ async function fetchCanceledSubscriptions() {
     )
     cancelSubscriptions.value = response.data.data // Update the reactive variable
   } catch (error) {
-    this.$toast.error('Oops, something went wrong!')
+    console.error('Error fetching subscriptions:', error)
+    // this.$toast.error('Oops, something went wrong!')
   }
 }
 
@@ -249,8 +250,8 @@ async function inviteUser () {
 
     // You can update subscriptions or handle response here
   } catch (error) {
-    // console.error('Error sending invitation:', error)
-    this.$toast.error('Oops, something went wrong!')
+    console.error('Error sending invitation:', error)
+    // this.$toast.error('Oops, something went wrong!')
   }
 }
 
@@ -276,12 +277,12 @@ const fetchAndDisplayInvoice = async (invoiceId) => {
       window.open(invoiceUrl)
       // window.open(invoiceUrl, '_blank');
     } else {
-      // console.error('No URL found in the response.')
-      this.$toast.error('Oops, something went wrong!')
+      console.error('No URL found in the response.')
+      // this.$toast.error('Oops, something went wrong!')
     }
   } catch (error) {
-    // console.error('Error fetching the invoice:', error)
-    this.$toast.error('Oops, something went wrong!')
+    console.error('Error fetching the invoice:', error)
+    // this.$toast.error('Oops, something went wrong!')
   }
 }
 
@@ -303,8 +304,8 @@ async function CancelSubscription (id) {
     })
     // console.log('cancel subscriptions:', response.data.data);
   } catch (error) {
-    // console.error('Error to cancel subscriptions:', error);
-    this.$toast.error('Oops, something went wrong!')
+    console.error('Error to cancel subscriptions:', error)
+    // this.$toast.error('Oops, something went wrong!')
   }
 }
 </script>
